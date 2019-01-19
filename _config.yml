@@ -129,7 +129,11 @@ author:
       url: "https://github.com/ibelieveai"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.linkedin.com/in/praneethbellamkonda/"
+    
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://instagram.com/"
 
 # Site Footer
 footer:
