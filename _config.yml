@@ -110,7 +110,7 @@ author:
   avatar           : "/images/praneeth_bellamkonda.jpg"
   bio              : "Data Scientist"
   location         : "Boston,MA"
-  email            : "krish201692@gmail.com"
+  #email            : "krish201692@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
