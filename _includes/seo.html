@@ -14,11 +14,7 @@
   {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- endif -%}
 
-{% if page.canonical_url %}
-  {%- assign canonical_url = page.canonical_url %}
-{% else %}
-  {%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
-{% endif %}
+{%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
 
 {%- assign seo_description = page.description | default: page.excerpt | default: site.description -%}
 {%- if seo_description -%}
@@ -130,7 +126,7 @@
 {% if site.og_image %}
   <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
+      "@context": "http://schema.org",
       "@type": "Organization",
       "url": {{ seo_url | jsonify }},
       "logo": {{ site_og_image | jsonify }}
@@ -141,7 +137,7 @@
 {% if site.social %}
   <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
+      "@context": "http://schema.org",
       "@type": "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name": {{ site.social.name | default: site.name | jsonify }},
       "url": {{ seo_url | jsonify }},
