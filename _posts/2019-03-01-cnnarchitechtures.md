@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Deep Convolutional Neural Networks: DenseNet"
 date: 2019-03-01
 tags: [computervision, deeplearning, neuralnetwork, cnn]
