@@ -1,13 +1,14 @@
 ---
-#layout: post
 title: "Deep Convolutional Neural Networks: DenseNet"
-date: 2019-03-01
-tags: [computervision, deeplearning, neuralnetwork, cnn]
-header:
-    image: "/images/densenet/deeplearning.jpg"
-excerpt: 'computervision', 'deeplearning', 'neuralnetwork', 'cnn'
-mathjax: 'true'
+excerpt: "Introduction to DenseNet"
+author: Praneeth Bellamkonda
+date: "2019-03-01 04:26"
+tags:
+    - ComputerVision
 ---
+
+{% include base_path %}
+{% include toc %}
 # Deep Convolutional Neural Networks: DenseNet
 
 Convolutional Neural Networks are the popular choice of neural networks for different Computer Vision tasks such as image recognition.
