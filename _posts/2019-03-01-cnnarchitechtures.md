@@ -19,6 +19,7 @@ To solve this problem [Gao Huang et al](https://arxiv.org/abs/1608.06993). intro
 *   alleviate the vanishing-gradient problem
 *   strengthen feature propagation
 *   encourage feature reuse, and substantially reduce the number of parameters.
+
 [Source: https://theailearner.com](https://theailearner.com/2018/12/09/densely-connected-convolutional-networks-densenet/)
 
 
