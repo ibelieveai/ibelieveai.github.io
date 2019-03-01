@@ -3,7 +3,7 @@ title: "Deep Convolutional Neural Networks: DenseNet"
 excerpt: "Introduction to DenseNet"
 author: Praneeth Bellamkonda
 date: 2019-03-01
-tags: [machine learning, data science, docker, data science tool box]
+tags: [Deep Learning, CNN, Computer Vision]
 ---
 
 {% include base_path %}
