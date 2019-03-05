@@ -44,7 +44,10 @@ where H means stacking over the depth dimension. 
 
 ## Resources & Acknowledgements
 [https://theailearner.com/2018/12/09/densely-connected-convolutional-networks-densenet/](https://theailearner.com/2018/12/09/densely-connected-convolutional-networks-densenet/)
-
+[https://towardsdatascience.com/residual-blocks-building-blocks-of-resnet-fd90ca15d6ec]
+(https://towardsdatascience.com/residual-blocks-building-blocks-of-resnet-fd90ca15d6ec)
+[https://medium.com/@smallfishbigsea/densenet-2b0889854a92]
+(https://medium.com/@smallfishbigsea/densenet-2b0889854a92)
 
 
 
