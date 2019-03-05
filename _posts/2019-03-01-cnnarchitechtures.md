@@ -20,7 +20,7 @@ The problems arise with CNNs when they go deeper. This is because the path for i
 
 ResNet was introduced few years ago to solve this problem. The core idea behind the ResNet is “identity shortcut connection” that skips one or more layers, as shown in the following figure.
 
-![Residual block](/images/densenet/popularnetworks.JPG)
+![Residual block](/images/densenet/resnet_residualblock.png)
 
 Neural networks are universal function approximators and that the accuracy increases with increasing number of layers. But there is a limit to the number of layers added that result in accuracy improvement. So, if neural networks were universal function approximators then it should have been able to learn any simplex or complex function. But it turns out to problems such as vanishing gradients and curse of dimensionality.
 
