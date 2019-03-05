@@ -5,7 +5,7 @@ author: Praneeth Bellamkonda
 date: 2019-03-01
 tags: [Deep Learning, CNN, Computer Vision]
 header:
-    image: "/images/densenet/popularnetworks.JPG"
+    image: "/images/densenet/deeplearning.jpg"
 ---
 
 {% include base_path %}
