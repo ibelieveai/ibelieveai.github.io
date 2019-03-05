@@ -5,7 +5,7 @@ author: Praneeth Bellamkonda
 date: 2019-03-01
 tags: [Deep Learning, CNN, Computer Vision]
 header:
-    image: "/images/densenet/deeplearning.jpg"
+    image: "/images/densenet/popularnetworks.JPG"
 ---
 
 {% include base_path %}
@@ -17,6 +17,7 @@ Convolutional Neural Networks are the popular choice of neural networks for diff
 The problems arise with CNNs when they go deeper. This is because the path for information from the input layer until the output layer (and for the gradient in the opposite direction) becomes so big, that they can get vanished before reaching the other side.
 
 ## How ResNet works?
+![ResNet](/images/densenet/Resnet.JPG)
 
 ResNet was introduced few years ago to solve this problem. The core idea behind the ResNet is “identity shortcut connection” that skips one or more layers, as shown in the following figure.
 
