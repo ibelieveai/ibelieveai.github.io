@@ -33,17 +33,17 @@ At this point a shallow network are learns better than their deeper counterparts
 *   strengthen feature propagation
 *   encourage feature reuse, and substantially reduce the number of parameters.
 
-[Source: https://theailearner.com](https://theailearner.com/2018/12/09/densely-connected-convolutional-networks-densenet/)
-
 ## ResNet vs DenseNet
 DenseNet is also a variation of ResNet. A layer in dense receives all the outs of previous layers and concatenate them in the depth dimension. In ResNet, a layer only receives outputs from the previous second or third layer, and the outputs are added together on the same depth, therefore it won’t change the depth by adding shortcuts. In ResNet the output of layer of k is 
 
 ResNet: x[k] = f(w * x[k-1] + x[k-2])
+
 DenseNet: x[k] = f(w * H(x[k-1], x[k-2], … x[1])) 
 
 where H means stacking over the depth dimension. 
 
-
+## Resources & Acknowledgements
+[https://theailearner.com/2018/12/09/densely-connected-convolutional-networks-densenet/](https://theailearner.com/2018/12/09/densely-connected-convolutional-networks-densenet/)
 
 
 
