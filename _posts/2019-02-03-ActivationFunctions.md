@@ -111,7 +111,7 @@ Here a is a small value like 0.01 or so.
 
 * removes the zero gradient problem.
 
-####Softmax
+#### Softmax
 ![Softmax Activation Function](/images/Activationfuns/softmax.JPG)
 
 Range = (0,1)
