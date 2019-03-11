@@ -1,5 +1,5 @@
 ---
-title: "Classifying Fashion-MNIST using Pytorch"
+title: "Classifying Fashion-MNIST using MLP in Pytorch"
 excerpt: "Classifying Fashion-MNIST"
 author: Praneeth Bellamkonda
 date: 2019-02-02
