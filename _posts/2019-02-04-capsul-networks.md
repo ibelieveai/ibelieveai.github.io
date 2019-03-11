@@ -31,6 +31,7 @@ Capsule Networks provide a way to detect parts of objects in an image and repres
 *   Every capsule outputs a vector, which has some magnitude and orientation.
 *   Capsules have a hierarchy between child and parent capsules and use dynamic routing to find the strongest connections between the output of one capsule and the inputs of the next layer of capsules.
 
+![png](/images/Activationfuns/softmax.JPG)
 ![png](/images/capsul-networks/capsul-hierarchy.png)
 
 In the example above, you can see how the parts of a face (eyes, nose, mouth, etc.) might be recognized in leaf nodes and then combined to form a more complete face part in parent nodes.
