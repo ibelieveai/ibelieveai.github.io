@@ -1,6 +1,6 @@
 ---
 title: "What are Capsule Networks ?"
-excerpt: "Introduction to DenseNet"
+excerpt: "Problem Pooling Layers"
 author: Praneeth Bellamkonda
 date: 2019-03-01
 tags: [Deep Learning, CNN, Computer Vision]
@@ -31,7 +31,7 @@ Capsule Networks provide a way to detect parts of objects in an image and repres
 *   Every capsule outputs a vector, which has some magnitude and orientation.
 *   Capsules have a hierarchy between child and parent capsules and use dynamic routing to find the strongest connections between the output of one capsule and the inputs of the next layer of capsules.
 
-!(png)[/images/capsul-networks/capsul-hierarchy.png]
+![png](/images/capsul-networks/capsul-hierarchy.png)
 
 In the example above, you can see how the parts of a face (eyes, nose, mouth, etc.) might be recognized in leaf nodes and then combined to form a more complete face part in parent nodes.
 
@@ -42,7 +42,8 @@ These output vectors allow us to do some powerful routing math to build up a par
 
 The magnitude is a special part property that should stay very high even when an object is in a different orientation, as shown below.
 
-!(png)[/images/capsul-networks/orientation.png]
+![png](/images/capsul-networks/orientation.png)
+
 
 ## Model Architecture
 The Capsule Network is made of two main parts:
@@ -50,7 +51,7 @@ The Capsule Network is made of two main parts:
 *   A convolutional encoder
 *   A fully-connected, linear decoder
 
-!(png)[/images/capsul-networks/architecture.png]
+![png](/images/capsul-networks/architecture.png)
 
 The above image was taken from the original [Capsule Network paper (Hinton et. al.)](https://arxiv.org/pdf/1710.09829.pdf).
 
