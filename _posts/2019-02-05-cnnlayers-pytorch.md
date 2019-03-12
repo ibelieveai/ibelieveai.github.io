@@ -2,7 +2,7 @@
 title: "Understanding Convolutional Layers in PyTorch"
 excerpt: "Theory and Syntax"
 author: Praneeth Bellamkonda
-date: 2019-03-05
+date: 2019-02-05
 tags: [Deep Learning, CNN, PyTorch, Computer Vision]
 header:
     image: "/images/densenet/deeplearning.jpg"
