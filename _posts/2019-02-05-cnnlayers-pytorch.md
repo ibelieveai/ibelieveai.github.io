@@ -73,7 +73,7 @@ Say I'd like the next layer in my CNN to be a convolutional layer that takes the
 ```python
 self.conv2 = nn.Conv2d(16, 32, 3, padding=1)
 ```
-!png)[/images/cnnpytorch/pooling.gif]
+!(png)[/images/cnnpytorch/pooling.gif]
 
 ## Sequential Models
 We can also create a CNN in PyTorch by using a Sequential wrapper in the __init__ function. Sequential allows us to stack different types of layers, specifying activation functions in between!
