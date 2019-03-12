@@ -7,9 +7,6 @@ tags: [Deep Learning, CNN, PyTorch, Computer Vision]
 header:
     image: "/images/densenet/deeplearning.jpg"
 ---
-```python
-```
-
 
 {% include base_path %}
 {% include toc %}
