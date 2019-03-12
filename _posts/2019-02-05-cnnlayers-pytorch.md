@@ -2,7 +2,7 @@
 title: "Building Convolutional Layers in PyTorch"
 excerpt: "Pytorch Convnets"
 author: Praneeth Bellamkonda
-date: 2019-03-01
+date: 2019-03-05
 tags: [Deep Learning, CNN, PyTorch, Computer Vision]
 header:
     image: "/images/densenet/deeplearning.jpg"
