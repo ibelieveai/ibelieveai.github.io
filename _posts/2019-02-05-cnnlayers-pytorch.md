@@ -1,6 +1,6 @@
 ---
-title: "Building Convolutional Layers in PyTorch"
-excerpt: "Pytorch Convnets"
+title: "Understanding Convolutional Layers in PyTorch"
+excerpt: "Theory and Syntax"
 author: Praneeth Bellamkonda
 date: 2019-03-05
 tags: [Deep Learning, CNN, PyTorch, Computer Vision]
