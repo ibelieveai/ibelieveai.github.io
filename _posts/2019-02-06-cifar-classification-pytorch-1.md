@@ -2,7 +2,7 @@
 title: "Building CNN on CIFAR-10 dataset using PyTorch: 1"
 excerpt: "Classifying CIFAR images using convnets"
 author: Praneeth Bellamkonda
-date: 2019-02-006
+date: 2019-02-06
 tags: [Deep Learning, CNN, Pytorch, Computer Vision]
 header:
     image: "/images/densenet/deeplearning.jpg"
