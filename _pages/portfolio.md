@@ -8,7 +8,7 @@ header:
 ---
 
 # Praneeth Bellamkonda
-#### Data Scientist
+### Data Scientist
 
 ### Personal Statement
 
