@@ -1,1 +1,0 @@
-<object data="{{ /_portfolio/Praneeth_Bellamkonda_Resume.pdf }}" width="1000" height="1000" type='application/pdf'>
